@@ -9,4 +9,5 @@ var Bee = function() {
 //Bee needs to set its prototype to delegate lookups to Grub.prototype
 Bee.prototype = Object.create(Grub.prototype);
 Bee.prototype.constructor = Bee;
+//every instance of bee
 Bee.prototype.job = 'keep on growing';
